@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Recipes-Project/static/css/main.3dfd177e.css",
+    "main.js": "/Recipes-Project/static/js/main.d6c4704e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Recipes-Project/static/js/787.28cb0dcd.chunk.js",
+    "static/media/homeImage.jpg": "/Recipes-Project/static/media/homeImage.1972c9afb5b5cf7dbb82.jpg",
+    "static/media/African.jpeg": "/Recipes-Project/static/media/African.f5451ff2eaaf7d4d2099.jpeg",
+    "static/media/thai.jpeg": "/Recipes-Project/static/media/thai.6aab3ba0829177e516a9.jpeg",
+    "static/media/spanishFood.png": "/Recipes-Project/static/media/spanishFood.a1bc7dd3b48c60ac1e64.png",
+    "static/media/british.jpeg": "/Recipes-Project/static/media/british.450c1d7345a11eba764b.jpeg",
+    "static/media/indien.jpg": "/Recipes-Project/static/media/indien.c15f9c59be3aa01a4c1c.jpg",
+    "static/media/chinese.jpeg": "/Recipes-Project/static/media/chinese.c093614d6c0aa0a00e13.jpeg",
+    "static/media/italian.jpeg": "/Recipes-Project/static/media/italian.f17a2f457e3326858a7e.jpeg",
+    "static/media/european.jpg": "/Recipes-Project/static/media/european.80bc6d5edeb050fe8bf2.jpg",
+    "static/media/japanese.jpeg": "/Recipes-Project/static/media/japanese.9f822f65fbf375ed6f1b.jpeg",
+    "static/media/carribean.jpeg": "/Recipes-Project/static/media/carribean.6062a412017fdcfddf43.jpeg",
+    "static/media/american.jpeg": "/Recipes-Project/static/media/american.01720a618b46b7e38ccf.jpeg",
+    "static/media/French.jpeg": "/Recipes-Project/static/media/French.398a1fdd5f486d533401.jpeg",
+    "static/media/meditarian.jpeg": "/Recipes-Project/static/media/meditarian.04024e51bf63ff1b41e7.jpeg",
+    "static/media/fridge.jpg": "/Recipes-Project/static/media/fridge.ec3de2a41723dda40424.jpg",
+    "static/media/tacos.jpg": "/Recipes-Project/static/media/tacos.c36635f6da5c8e900afe.jpg",
+    "static/media/loadingImage.gif": "/Recipes-Project/static/media/loadingImage.1952935ed80fba5926fe.gif",
+    "static/media/diet-infographic.png": "/Recipes-Project/static/media/diet-infographic.f2fb1654c883d8af37f8.png",
+    "static/media/logo3.png": "/Recipes-Project/static/media/logo3.e0bdead21d4352e80909.png",
+    "static/media/github.png": "/Recipes-Project/static/media/github.553c66159c5672f25df6.png",
+    "static/media/greek.jpeg": "/Recipes-Project/static/media/greek.e914ff74463417c7a8ca.jpeg",
+    "index.html": "/Recipes-Project/index.html",
+    "main.3dfd177e.css.map": "/Recipes-Project/static/css/main.3dfd177e.css.map",
+    "main.d6c4704e.js.map": "/Recipes-Project/static/js/main.d6c4704e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Recipes-Project/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dfd177e.css",
+    "static/js/main.d6c4704e.js"
+  ]
+}
