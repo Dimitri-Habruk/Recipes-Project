@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link to="/"><img  className="logo" src={logo} alt="logo" /></Link>
       
         <ul className="links">
-          <NavLink className="navlink"  to="/">Home</NavLink>
+          <NavLink className="navlink"  to="/Recipes-Project">Home</NavLink>
           <NavLink className="navlink"  to="/recipes">Recipes</NavLink>
           <NavLink className="navlink"  to="/diet">Diet</NavLink>
           <NavLink className="navlink"  to="/ingredients">Ingredients</NavLink>
