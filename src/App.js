@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import 'antd/dist/reset.css';
+import Navbar from "./components/Navbar";
+import RecipesPage from "./components/RecipesPage";
+import { Route, Routes } from "react-router-dom";
+import Ingredients from "./components/Ingredients"; 
+import Cuisine from "./components/Cuisine"; 
+import Diet from "./components/Diet"; 
+import Recipe from "./components/Recipe"
+import Footer from './components/Footer'
+import Home from "./components/Home";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/recipes" element={<RecipesPage />}/>
+        <Route path="/:cuisine" element={<Cuisine/>}/>
+        <Route path="/recipe/:id" element={<Recipe/>}/>
+        <Route path="/diet" element={<Diet />}/>
+        <Route path="/ingredients" element={<Ingredients/>}/>
+      </Routes>
+      <Footer/>
     </div>
   );
 }

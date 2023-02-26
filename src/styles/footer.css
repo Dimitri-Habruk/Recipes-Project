@@ -1,0 +1,56 @@
+.Footer{
+    font-size: 10px;
+    height: 220px;
+    display: flex;
+    color : white;
+    background-color : rgb(25,33,41);
+  }
+  
+.infoFooter{
+    display: flex;
+    text-align : center;
+    padding : 30px 100px;
+    width: 33%;
+    flex-direction: column;
+}
+  
+
+  
+  .socialLinks{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .socialLinks a, li{
+    margin-top: 12px;
+    list-style-type : none;
+    text-decoration : none;
+    font-size: larger;
+    color: rgb(67,163,230);
+  }
+  .socialLinks a, li:visited{
+    list-style-type : none;
+    text-decoration : none;
+    font-size: larger;
+    color: rgb(67,163,230);
+  }
+
+
+
+  .followUsFooter{
+    display: flex;
+    flex-direction: column;
+    text-align : center;
+    width: 33%;
+    padding : 30px 50px;
+  }
+  
+  .footerMap{
+    width: 34%;
+  }
+
+  .mapFooter{
+    margin-top: 2%;
+    width: 90%;
+    height: 170px;
+}

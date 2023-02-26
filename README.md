@@ -7,6 +7,7 @@ On this website, you can browse recipes from different cuisines around the world
 - JavaScript
 - React
 - Antd UI Library
+- Material UI
 - Html react parser
 
 

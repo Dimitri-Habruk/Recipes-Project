@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+  font-family: Poppins;
 }
+/*font-family: DejaVu Sans Mono, monospace*/	
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.recipeID{
+  padding: 5%;
+  /*background-image: url(https://img.freepik.com/photos-gratuite/fond-textures-sable_74190-1330.jpg?w=1480&t=st=1673528229~exp=1673528829~hmac=5053fadea00c5a7d9f6d084aecf05bb3c7b69e1ec33983b60a981dd730c471b0);
+  background-repeat: no-repeat;
+  background-size: cover;*/
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ingredAndPhoto{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.diets{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.title{
+  margin-top: 6%;
+  padding-right: 20%;
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-decoration: none;
+  text-shadow: 3px 5px 5px #A695A5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.recipes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
+.countries{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  height: 60%;
+  margin: auto;
+}
+
+.rond{
+  width: 19%;
+  margin:0.5%;
+}
+
+.rond:hover{
+  transform: scale(1.2);
+}
+
+.picRecipe{
+  border-radius: 5%;
+}
+ 
+.rowDiet{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
